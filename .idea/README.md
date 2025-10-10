@@ -11,4 +11,4 @@ Just replace <github-username> with your GitHub username. The release badge is:
 
 
 # Software Engineering Methods
-https://img.shields.io/github/actions/workflow/status/kendailherbertedu-art/sem/main.yml
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kendailherbertedu-art/sem/main.yml)
