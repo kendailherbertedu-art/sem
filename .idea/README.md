@@ -8,3 +8,6 @@ Add some text to the readme
 Just replace <github-username> with your GitHub username. The release badge is:
 
 [![Releases](https://img.shields.io/github/release/kendailherbertedu-art/sem/all.svg?style=flat-square)](https://github.com/kendailherbertedu-art/sem/releases)
+
+# Software Engineering Methods
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/kendailherbertedu-art/sem/main.yml?branch=<branch>)
