@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c654732-b8aa-455b-bb93-71d4a63424ea" name="Changes" comment="Added Hello World" />
+    <list default="true" id="7c654732-b8aa-455b-bb93-71d4a63424ea" name="Changes" comment="Added Hello World">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Docker.Docker Image.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,7 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="lab1" />
@@ -84,12 +87,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mongo:latest" />
+          <option name="containerName" value="" />
+          <option name="commandLineOptions" value="-p 27000:27017" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -100,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.App" />
       </list>
@@ -124,7 +142,7 @@
       <workItem from="1759099543622" duration="3153000" />
       <workItem from="1759666512360" duration="2044000" />
       <workItem from="1759669029625" duration="7981000" />
-      <workItem from="1760065594222" duration="974000" />
+      <workItem from="1760065594222" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -382,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760066563316</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added Hello World">
+      <option name="closed" value="true" />
+      <created>1760066678899</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1760066678899</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added Hello World">
+      <option name="closed" value="true" />
+      <created>1760066707604</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1760066707604</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
